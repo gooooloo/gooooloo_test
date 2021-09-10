@@ -61,8 +61,8 @@
 
 #define GOOOOLOO_TEMP_VAR(x) x##__
 #define GOOOOLOO_TEST(testname)               \
-int testname();                               \
-int GOOOOLOO_TEMP_VAR(testname) = testname(); \
-int testname()
+static int testname();                               \
+static int GOOOOLOO_TEMP_VAR(testname) = testname(); \
+static int testname()
 
 #endif // GOOOOLOO_TEST_H
