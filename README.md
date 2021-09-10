@@ -1,7 +1,7 @@
 # gooooloo_test
 A very simple header file for writing simple unit tests in C++.
 
-## Why?
+# Why?
 Existing C++ UT tools like GTest are very strong, but not lightweight enough. Sometimes I just write very simple codes and would like to test them. I don't want to install another module, or to use CMake. I just want a simple `g++ test.cpp && ./a.out` and hope to see everything just works. 
 
 # Usage
